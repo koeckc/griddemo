@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd" xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <profiles>
+<profile>
+       <id>inject-liferay-properties</id>
+       <properties>
+         <liferay.version>6.2.2</liferay.version>
+         <liferay.maven.plugin.version>6.2.10.11</liferay.maven.plugin.version>
+         <liferay.auto.deploy.dir>/Volumes/users/const/develop/grid/liferay-portal-6.2-ce-ga3/deploy</liferay.auto.deploy.dir>
+         <liferay.app.server.dir>/Volumes/users/const/develop/grid/liferay-portal-6.2-ce-ga3/tomcat-7.0.42</liferay.app.server.dir>
+         <liferay.app.server.deploy.dir>/Volumes/users/const/develop/grid/liferay-portal-6.2-ce-ga3/tomcat-7.0.42/webapps</liferay.app.server.deploy.dir>
+        <liferay.app.server.lib.global.dir>/Volumes/users/const/develop/grid/liferay-portal-6.2-ce-ga3/tomcat-7.0.42/lib/ext</liferay.app.server.lib.global.dir>
+        <liferay.app.server.portal.dir>/Volumes/users/const/develop/grid/liferay-portal-6.2-ce-ga3/tomcat-7.0.42/webapps/ROOT</liferay.app.server.portal.dir>
+     </properties>
+    </profile>
+  </profiles>
+  <activeProfiles>
+     <activeProfile>inject-liferay-properties</activeProfile>
+  </activeProfiles>
+</settings>
